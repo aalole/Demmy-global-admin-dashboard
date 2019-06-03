@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /*
+ ===============================
+    header/navigation
+ ===============================
+ */
+.top-header{
+    height: 50px;
+    background-color: #103c42;
+}
+.top-header img{
+    padding-top: 20px;
+    color: #fff;
+}
+/*
+ ========================================
+    body/ main section// index.html
+ ====================================
+ */
+div.DASHBOARD{
+    margin: 0  !important;
+    border: 1px solid black;
+    padding: 0  !important;
+    display: inline-block !important;
+    flex: 0 0 25%;
+}
+
+.gallery {
+    display: inline-block;
+    width: 70%;
+    margin: 20px;
+}
+title{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.parent{
+    border: 1px solid  #ffe837;
+    width: 200px;
+    height: 120px;
+    margin-top: 30px;
+    align-self: auto;
+}
+.firstChild{
+    background-color: cornflowerblue;
+    height: 65%;
+    max-height: 100%;
+}
+.firstChild a{
+    text-decoration: none;
+    color: #fff;
+}
+.firstChild h1{
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #ffe837;
+    border-radius: 50%;
+    padding: 2px;
+    float: right;
+    margin: 10px;
+}
+.firstChild ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.firstChild .fa-users{
+    font-size: 30px;
+}
+#customer{
+    font-size: 12px;
+    float: right;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+.secondChild{
+    background-color: #02576c;
+    height: 35%;
+}
+.secondChild a{
+    text-decoration: none;
+    color: #fff;
+}
+.secondChild ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.secondChild .fa-sign-out-alt{
+    margin-left: 80px;
+    padding-top: 10px;
+}
+#details{
+    padding-left: 20px;
+    letter-spacing: 3px;
+}
+
+ .parent-container{
+     border:  2px solid #ffe837;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     flex: 0 0 75%;
+ }
+ .wrapper{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+/*
+ ===============================
+   customer page// customers.html
+ ===============================
+ */
+
+ 
+ .table-responsive{
+     padding: 10px;
+ }
+.top-search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.top-left{
+    padding-left: 20px;
+}
+.top-right{
+    padding-right: 20px;
+}
+.custom-container h1{
+    height: 30px;
+    text-transform: capitalize;
+    background-color: cadetblue;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.showAll{
+    float: right;
+    margin-right: 80px;
+}
+.btn-secondary{
+    font-size: 15px;
+    /* width: 60px; */
+    height: 20;
+}
+/* 
+=====================================
+Managecards css //managecards.html
+====================================
+*/
+.cardManager{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.top-left h1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    padding-right: 5px;
+}
+
