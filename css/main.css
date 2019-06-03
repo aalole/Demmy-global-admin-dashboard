@@ -27,6 +27,11 @@ div.DASHBOARD{
     display: inline-block !important;
     flex: 0 0 25%;
     background-color: #02576c;
+    
+}
+div.DASHBOARD a{
+    color:#fff;
+    margin-left:10px;
 }
 button, input{
     background-color: #ffe837;
@@ -176,3 +181,24 @@ Managecards css //managecards.html
     padding-right: 5px;
 }
 
+@media  screen and (max-width:800px){
+.gallery {
+        display: inline-block;
+        width: 40%;
+        margin: 20px;
+        background-color: #05a19c;
+        background-size: cover;
+    }
+    div.DASHBOARD{
+        margin: 0  !important;
+        border: 1px solid black;
+        padding: 0  !important;
+        display: inline-block !important;
+        flex: 0 0 20%;
+        background-color: #02576c;
+        
+    }
+    div.DASHBOARD a{
+        width: 40px;
+    }
+}
