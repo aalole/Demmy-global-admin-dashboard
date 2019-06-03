@@ -26,12 +26,19 @@ div.DASHBOARD{
     padding: 0  !important;
     display: inline-block !important;
     flex: 0 0 25%;
+    background-color: #02576c;
+}
+button, input{
+    background-color: #ffe837;
+    color: #fff;
 }
 
 .gallery {
     display: inline-block;
     width: 70%;
     margin: 20px;
+    background-color: #05a19c;
+    background-size: cover;
 }
 title{
     font-size: 20px;
@@ -76,7 +83,7 @@ title{
     font-size: 12px;
     float: right;
     padding-top: 30px;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
 }
 .secondChild{
     background-color: #02576c;
@@ -101,12 +108,13 @@ title{
 }
 
  .parent-container{
-     border:  2px solid #ffe837;
+     /* border:  2px solid #ffe837; */
      display: flex;
      flex-wrap: wrap;
      justify-content: space-around;
      align-items: center;
      flex: 0 0 75%;
+     /* background-color: #ffe837; */
  }
  .wrapper{
      display: flex;
