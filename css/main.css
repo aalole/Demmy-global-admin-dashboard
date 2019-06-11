@@ -15,6 +15,42 @@
     padding-top: 20px;
     color: #fff;
 }
+/*Modal modification*/
+    .modal-dialog {
+ 
+          width: 100%;
+ 
+          height:600px !important;
+ 
+        }
+ 
+.modal-content {
+ 
+    /* 80% of window height */
+ 
+    height: 100%;
+ 
+    background-color:#BBD6EC;
+    padding:;
+ 
+}       
+ 
+.modal-header {
+ 
+    background-color: #337AB7;
+ 
+    padding:10px 10px;
+ 
+    color:#FFF;
+ 
+    border-bottom:2px dashed #337AB7;
+ 
+ }
+ .glo-table{
+    width:90%;
+    padding:2px;
+}
+/*End of modal modification*/
 /*
  ========================================
     body/ main section// index.html
@@ -26,12 +62,32 @@ div.DASHBOARD{
     padding: 0  !important;
     display: inline-block !important;
     flex: 0 0 25%;
+    background-color: #02576c;
+    
+}
+div.DASHBOARD a{
+    color:#fff;
+    margin-left:10px;
+}
+button{
+    background-color: #ffe837;
+    color: #fff;
+}
+.button{
+    background-color: #ffe837;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #02576c;
 }
 
 .gallery {
     display: inline-block;
     width: 70%;
     margin: 20px;
+    background-color: #05a19c;
+    background-size: cover;
 }
 title{
     font-size: 20px;
@@ -76,7 +132,7 @@ title{
     font-size: 12px;
     float: right;
     padding-top: 30px;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
 }
 .secondChild{
     background-color: #02576c;
@@ -101,12 +157,13 @@ title{
 }
 
  .parent-container{
-     border:  2px solid #ffe837;
+     /* border:  2px solid #ffe837; */
      display: flex;
      flex-wrap: wrap;
      justify-content: space-around;
      align-items: center;
      flex: 0 0 75%;
+     /* background-color: #ffe837; */
  }
  .wrapper{
      display: flex;
@@ -151,6 +208,9 @@ title{
     /* width: 60px; */
     height: 20;
 }
+.input-group-addon{
+    border-radius: 4px 0px 0px 4px;
+}
 /* 
 =====================================
 Managecards css //managecards.html
@@ -168,3 +228,24 @@ Managecards css //managecards.html
     padding-right: 5px;
 }
 
+@media  screen and (max-width:800px){
+.gallery {
+        display: inline-block;
+        width: 40%;
+        margin: 20px;
+        background-color: #05a19c;
+        background-size: cover;
+    }
+    div.DASHBOARD{
+        margin: 0  !important;
+        border: 1px solid black;
+        padding: 0  !important;
+        display: inline-block !important;
+        flex: 0 0 20%;
+        background-color: #02576c;
+        
+    }
+    div.DASHBOARD a{
+        width: 40px;
+    }
+}
