@@ -17,40 +17,40 @@
 		</div>
 <!-- Side nav -->
 		<div class="wrapper">
-			<div class="DASHBOARD col-sm-4">
-				<div class="topnav" id="myTopnav">
-							<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-								<i class="fa fa-bars"></i>
-							</a>
-						
-							<a href="#home" <span style="padding-right:9px;"><i class="fa fa-dashboard" ></i></span>Dashboard</a>
-							<hr>
+			<div class="DASHBOARD aside" >
+                <div class="topnav" id="myTopnav">
+                            
+                            <br><br>
+                        <a href="index.html">
+                            <i class="fas fa-address-card"></i>Admin Home
+                        </a>
+                        <hr>
 
-							<a href="#news">
-								<i class="fa fa-users" ></i>Customers
-							</a>
-								<hr class="responsive">
-							<a href="#contact">Manage Referral</a>
-								<hr class="responsive">
-							<a href="#about">Manage Network</a>
-								<hr class="responsive">
-							<a href="wallet.php">Manage wallet</a><hr class="responsive">
-							<a href="glo_generate.php">
-								<i class="fa fa-shopping-cart" style="margin-left:2px;"></i>Generate Glo Recharge</a>
-									<hr class="responsive">
-							<a href="#">
-								<i class="fa fa-shopping-cart"style="margin-left:2px;"></i>Generate MTN Recharg
-								e</a><hr class="responsive">
-							<a href="#about"><i class="fa fa-laptop" style="margin-left:2px;" ></i>Recharge Card Report</a><hr class="responsive">
-							<a href="#about"><i class="fa fa-print" style="margin-left:2px;" ></i>Reprint Cards</a><hr class="responsive">
-							<a href="#about">Query Records</a><hr class="responsive">
-							<a href="dashboard_user.php"><i class="fa fa-user" style="margin-left:2px;" ></i>Admin Users</a>
-						</span>
-				<!--  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					<i class="fa fa-bars">Menu</i> -->
-				
-				</div>
-			</div>
+                        <a href="customers.html">
+                            <i class="fa fa-users" ></i>Customers
+                        </a>
+                            <hr class="responsive">
+                        <a href="managecards.html"> <i class="fas fa-tasks"></i>Manage Network</a>
+                            <hr class="responsive">
+                        <a href="wallet.html"> <i class="fas fa-wallet"></i>Manage wallet</a><hr class="responsive">
+                        <a href="generate_glo.html"><i class="fa fa-shopping-cart" ></i>Generate Glo Recharge</a>
+                                <hr class="responsive">
+                        <a href="generate_mtn.html"><i class="fa fa-shopping-cart"></i>Generate MTN Recharge</a>
+                                <hr class="responsive">
+                        <a  href="customer_details.html"><i class="fas fa-info-circle"></i>Customer details</a>
+                            <hr class="responsive">
+                        <a href="user_log.html"><i class="fas fa-users"></i>Manage User Logs</a>
+                            <hr class="responsive">
+                        <a href="admin_users.html"><i class="fas fa-user-lock"></i>Admin Users</a>
+                            <hr class="responsive">
+                        <a href="dashboard_user.html"><i class="fas fa-users"></i>Administrative Dashboard</a>
+                            <hr class="responsive">
+                        <a href="index.html"><i class="fas fa-cart-plus"></i>Logout</a>                
+                </div>
+                <!-- body section -->
+            
+
+            </div>
 			<!-- End of Side nav -->
 			<!-- body section -->
 			<div class="gallery">
@@ -58,12 +58,12 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<h1 style="color:#02576c;">Glo Card Generation Portal</h1>
+						<h1 style="color:#02576c;">MTN Card Generation Portal</h1>
 
 						</div>
 						<div class="col-sm-6">
 							<button class="btn button" data-toggle="modal" data-target="#myModal" style="background-color:#ffc837;"><i class="glyphicon glyphicon-eye-open" style="float:left;"></i>View Report</button>
-							<!-- <button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#myModal">View Report</button> -->
+						
 						</div>
 
 
@@ -160,7 +160,7 @@
 					<div style="padding: 30px 30px 10px;">
 						<form class="bs-example bs-example-form" role="form">
 							<div class="input-group input">
-								<span class="input-group-addon">Amount</span>
+								<span class="input-group-addon" style="background-color:#ffc837;">Amount</span>
 								<select class="form-control input">
 								<option>100</option>
 								<option>200</option>
@@ -172,12 +172,12 @@
 							</div><br>
 
 							<div class="input-group input">
-								<span class="input-group-addon">Quantity</span>
+								<span class="input-group-addon" style="background-color:#ffc837;">Quantity</span>
 								<input type="text" class="form-control input" placeholder="min:100-max:100">
 							</div><br>
 
 							<div class="input-group input">
-								<span class="input-group-addon">Ref. No:</span>
+								<span class="input-group-addon" style="background-color:#ffc837;">Ref. No</span>
 								<input type="text" class="form-control input" placeholder="Any random number">
 							</div><br>
 							
@@ -190,22 +190,6 @@
 			</div>
 		</div>
 
-
-
-		<script>
-		function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  // var y = document.getElementById("display");
-		  if (x.className === "topnav") {
-		    x.className += " responsive";
-		    // y.className.display="none";
-
-		  } else {
-		    x.className = "topnav";
-		  }
-		}
-		</script>
-	<!-- </div> -->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
